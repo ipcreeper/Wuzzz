@@ -1,5 +1,9 @@
 package com.app.client.header;
 
+import com.google.gwt.user.cellview.client.CellTable;
+import com.google.gwt.user.cellview.client.Column;
+import com.google.gwt.user.cellview.client.TextColumn;
+import com.google.gwt.user.client.ui.Grid;
 import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.HorizontalPanel;
 
@@ -16,5 +20,6 @@ public class Header extends HorizontalPanel {
 
         logo.setStyleName("logo");
         add(logo);
+
     }
 }
