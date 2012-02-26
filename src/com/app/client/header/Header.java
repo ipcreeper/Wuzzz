@@ -15,7 +15,6 @@ public class Header extends HorizontalPanel {
         setStyleName("header");
 
         logo.setStyleName("logo");
-                       //
         add(logo);
     }
 }
